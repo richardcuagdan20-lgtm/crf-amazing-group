@@ -1,6 +1,7 @@
 ---
 import Base from "../../layouts/Base.astro";
 import { projects, cities, imgSrc, typeLabel } from "../../data/catalog.js";
+import { withBase } from "../../utils/paths.js";
 
 const cityList = cities();
 ---
@@ -12,15 +13,15 @@ const cityList = cities();
         Browse by city, or view all properties. Message Crystal to confirm what’s available and the current price.
       </p>
       <div class="filter-bar" role="navigation" aria-label="Filter by location" id="filter-location">
-        <a href="/projects" data-city="all">All locations</a>
+        <a href={withBase("/projects")} data-city="all">All locations</a>
         {cityList.map((c) => (
-          <a href={`/projects?location=${encodeURIComponent(c)}`} data-city={c}>{c}</a>
+          <a href={withBase(`/projects?location=${encodeURIComponent(c)}`)} data-city={c}>{c}</a>
         ))}
       </div>
       <div class="filter-bar" role="navigation" aria-label="Filter by type" id="filter-type">
-        <a href="/projects" data-type="all">All types</a>
-        <a href="/projects?type=condo" data-type="condo">Condominiums</a>
-        <a href="/projects?type=house-and-lot" data-type="house-and-lot">House and lot</a>
+        <a href={withBase("/projects")} data-type="all">All types</a>
+        <a href={withBase("/projects?type=condo")} data-type="condo">Condominiums</a>
+        <a href={withBase("/projects?type=house-and-lot")} data-type="house-and-lot">House and lot</a>
       </div>
       <p class="kicker" id="filter-count">{projects.length} projects</p>
     </div>
@@ -29,7 +30,7 @@ const cityList = cities();
     <div class="wrap">
       <div class="dir" id="project-dir">
         {projects.map((p) => (
-          <a class="dir-item" href={`/projects/${p.slug}`} data-city={p.city} data-type={p.type}>
+          <a class="dir-item" href={withBase(`/projects/${p.slug}`)} data-city={p.city} data-type={p.type}>
             {p.hero && (
               <img src={imgSrc(p.hero.file)} alt="" width={p.hero.width} height={p.hero.height} />
             )}
@@ -44,13 +45,15 @@ const cityList = cities();
           </a>
         ))}
       </div>
-      <p id="filter-empty" hidden>No projects match these filters. <a href="/projects">View all properties</a>.</p>
+      <p id="filter-empty" hidden>No projects match these filters. <a href={withBase("/projects")}>View all properties</a>.</p>
     </div>
   </section>
 </Base>
 
 <script>
   function applyFilters() {
+    const base = (import.meta.env.BASE_URL || "/").replace(/\/$/, "");
+    const projectsPath = `${base}/projects`;
     const q = new URLSearchParams(window.location.search);
     const city = q.get("location") || "all";
     const typ = q.get("type") || "all";
@@ -63,7 +66,7 @@ const cityList = cities();
       if ((a.getAttribute("data-city") || "all") !== "all") next.set("location", a.getAttribute("data-city") || "");
       if (typ !== "all") next.set("type", typ);
       const s = next.toString();
-      a.setAttribute("href", s ? `/projects?${s}` : "/projects");
+      a.setAttribute("href", s ? `${projectsPath}?${s}` : projectsPath);
     });
 
     document.querySelectorAll("#filter-type a").forEach((a) => {
@@ -74,7 +77,7 @@ const cityList = cities();
       if (city !== "all") next.set("location", city);
       if ((a.getAttribute("data-type") || "all") !== "all") next.set("type", a.getAttribute("data-type") || "");
       const s = next.toString();
-      a.setAttribute("href", s ? `/projects?${s}` : "/projects");
+      a.setAttribute("href", s ? `${projectsPath}?${s}` : projectsPath);
     });
 
     let shown = 0;

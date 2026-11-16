@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import { withBase } from "../utils/paths.js";
 ---
 <Base title="Page not found" description="That page is not on the CRF Amazing Group website.">
   <section class="page-intro">
@@ -7,8 +8,8 @@ import Base from "../layouts/Base.astro";
       <h1>This page is not here</h1>
       <p>Try the project list, or message Crystal directly.</p>
       <div class="hero-actions">
-        <a class="btn btn-navy" href="/projects">View all properties</a>
-        <a class="btn btn-line" href="/contact">Contact</a>
+        <a class="btn btn-navy" href={withBase("/projects")}>View all properties</a>
+        <a class="btn btn-line" href={withBase("/contact")}>Contact</a>
         <a class="btn btn-line" href="tel:+639776821438">Call 0977 682 1438</a>
       </div>
     </div>

@@ -1,10 +1,14 @@
 import catalog from "./projects.json";
 import handoverData from "./handover.json";
+import { withBase } from "../utils/paths.js";
 
 export const projects = catalog.projects;
 
 export function imgSrc(file) {
-  return `/images/projects/${file}`;
+  if (!file) return "";
+  if (/^(https?:)/i.test(file)) return file;
+  if (file.startsWith("/images/") || file.startsWith("/")) return withBase(file);
+  return withBase(`/images/projects/${file}`);
 }
 
 export function inquireHref(projectName, channel = "whatsapp") {
@@ -44,7 +48,7 @@ export function handoverEntries() {
   return list.map((entry) => {
     const project = entry.slug ? projects.find((p) => p.slug === entry.slug) : null;
     const photo = entry.photo
-      ? entry.photo
+      ? imgSrc(entry.photo)
       : project?.hero?.file
         ? imgSrc(project.hero.file)
         : "";
@@ -68,25 +72,25 @@ export function rfoReleases() {
 
 export const heroSlides = [
   {
-    src: "/images/hero/amisa-clubhouse.webp",
+    src: withBase("/images/hero/amisa-clubhouse.webp"),
     width: 2200,
     height: 1238,
     alt: "",
   },
   {
-    src: "/images/hero/galleria-pool-night.webp",
+    src: withBase("/images/hero/galleria-pool-night.webp"),
     width: 1652,
     height: 825,
     alt: "",
   },
   {
-    src: "/images/hero/westin-lobby.webp",
+    src: withBase("/images/hero/westin-lobby.webp"),
     width: 1980,
     height: 1532,
     alt: "",
   },
   {
-    src: "/images/hero/aurora-lounge.webp",
+    src: withBase("/images/hero/aurora-lounge.webp"),
     width: 2200,
     height: 1467,
     alt: "",

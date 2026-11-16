@@ -1,5 +1,6 @@
 ---
 import Base from "../layouts/Base.astro";
+import { withBase } from "../utils/paths.js";
 ---
 <Base title="About Us" description="Crystal Flores, founder of CRF Amazing Group. International Marketing Associate Director, Robinsons Land Corporation International Marketing.">
   <section class="page-intro">
@@ -40,8 +41,8 @@ import Base from "../layouts/Base.astro";
         This is Crystal’s site, not the official RLC Residences website.
       </p>
       <div class="hero-actions" style="margin-top:1rem;">
-        <a class="btn btn-navy" href="/contact">Contact Crystal</a>
-        <a class="btn btn-line" href="/careers">Join the team</a>
+        <a class="btn btn-navy" href={withBase("/contact")}>Contact Crystal</a>
+        <a class="btn btn-line" href={withBase("/careers")}>Join the team</a>
       </div>
     </div>
   </section>

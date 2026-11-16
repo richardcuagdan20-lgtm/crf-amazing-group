@@ -1,6 +1,7 @@
 ---
 import Logo from "./Logo.astro";
-const path = Astro.url.pathname.replace(/\/$/, "") || "/";
+import { withBase, pagePath } from "../utils/paths.js";
+const path = pagePath(Astro.url.pathname);
 const links = [
   { href: "/", label: "Home" },
   { href: "/projects", label: "Projects" },
@@ -12,7 +13,7 @@ const links = [
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
   <div class="wrap header-inner">
-    <a class="brand" href="/" aria-label="CRF Amazing Group home">
+    <a class="brand" href={withBase("/")} aria-label="CRF Amazing Group home">
       <Logo invert={true} />
     </a>
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" id="nav-toggle">
@@ -21,7 +22,7 @@ const links = [
     <div class="nav-panel" id="site-nav">
       <nav class="nav" aria-label="Primary">
         {links.map((l) => (
-          <a href={l.href} aria-current={path === l.href || (l.href !== "/" && path.startsWith(l.href)) ? "page" : undefined}>
+          <a href={withBase(l.href)} aria-current={path === l.href || (l.href !== "/" && path.startsWith(l.href)) ? "page" : undefined}>
             {l.label}
           </a>
         ))}

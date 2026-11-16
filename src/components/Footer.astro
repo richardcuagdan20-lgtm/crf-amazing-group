@@ -1,5 +1,6 @@
 ---
 import Logo from "./Logo.astro";
+import { withBase } from "../utils/paths.js";
 ---
 <footer class="site-footer">
   <div class="wrap footer-grid">
@@ -11,7 +12,7 @@ import Logo from "./Logo.astro";
     </div>
     <div>
       <h2 style="color:var(--ivory);font-size:1.05rem;">Visit</h2>
-      <p><a href="/">Home</a><br /><a href="/projects">Projects</a><br /><a href="/about">About Us</a><br /><a href="/careers">Careers</a><br /><a href="/contact">Contact</a></p>
+      <p><a href={withBase("/")}>Home</a><br /><a href={withBase("/projects")}>Projects</a><br /><a href={withBase("/about")}>About Us</a><br /><a href={withBase("/careers")}>Careers</a><br /><a href={withBase("/contact")}>Contact</a></p>
     </div>
     <div>
       <h2 style="color:var(--ivory);font-size:1.05rem;">Talk to Crystal</h2>

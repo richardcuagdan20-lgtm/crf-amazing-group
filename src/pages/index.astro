@@ -1,6 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
 import { featured, handoverEntries, heroSlides, imgSrc, inquireHref, typeLabel } from "../data/catalog.js";
+import { withBase } from "../utils/paths.js";
 
 const releases = handoverEntries();
 const picks = featured();
@@ -36,7 +37,7 @@ const picks = featured();
           <a class="btn btn-line" href="viber://chat?number=%2B639776821438">Viber</a>
           <a class="btn btn-line" href="https://wa.me/639776821438">WhatsApp</a>
           <a class="btn btn-line" href="mailto:crystalflores.rpmmc@gmail.com">Email</a>
-          <a class="btn btn-line" href="/projects">Browse projects</a>
+          <a class="btn btn-line" href={withBase("/projects")}>Browse projects</a>
         </div>
       </div>
     </div>
@@ -61,7 +62,7 @@ const picks = featured();
             <article class="release-card">
               {r.photo && (
                 r.slug ? (
-                  <a href={`/projects/${r.slug}`}>
+                  <a href={withBase(`/projects/${r.slug}`)}>
                     <img src={r.photo} alt="" width={r.photoWidth} height={r.photoHeight} />
                   </a>
                 ) : (
@@ -70,7 +71,7 @@ const picks = featured();
               )}
               <div>
                 {r.slug ? (
-                  <a class="release-name" href={`/projects/${r.slug}`}>{r.project}</a>
+                  <a class="release-name" href={withBase(`/projects/${r.slug}`)}>{r.project}</a>
                 ) : (
                   <p class="release-name">{r.project}</p>
                 )}
@@ -80,7 +81,7 @@ const picks = featured();
                 </p>
                 <div class="release-actions">
                   <a class="btn" href={inquireHref(r.project || "a handover release", "whatsapp")}>WhatsApp</a>
-                  {r.slug && <a class="btn btn-line" href={`/projects/${r.slug}`}>View</a>}
+                  {r.slug && <a class="btn btn-line" href={withBase(`/projects/${r.slug}`)}>View</a>}
                 </div>
               </div>
             </article>
@@ -94,11 +95,11 @@ const picks = featured();
     <div class="wrap">
       <div class="section-head">
         <h2 id="featured-title">Projects in the cities I cover</h2>
-        <a href="/projects">View all properties</a>
+        <a href={withBase("/projects")}>View all properties</a>
       </div>
       <div class="dir">
         {picks.map((p) => (
-          <a class="dir-item" href={`/projects/${p.slug}`}>
+          <a class="dir-item" href={withBase(`/projects/${p.slug}`)}>
             {p.hero && (
               <img src={imgSrc(p.hero.file)} alt="" width={p.hero.width} height={p.hero.height} />
             )}
@@ -124,7 +125,7 @@ const picks = featured();
       <blockquote>
         “Driven by passion and built on innovation. We create with purpose to help you shape a better future today.”
       </blockquote>
-      <a class="btn btn-navy" href="/about">About Us</a>
+      <a class="btn btn-navy" href={withBase("/about")}>About Us</a>
     </div>
   </section>
 
@@ -138,7 +139,7 @@ const picks = featured();
         <li>Spain</li>
         <li>United States</li>
       </ul>
-      <p style="margin-top:1.2rem;"><a class="btn btn-line" href="/careers">Join as an ambassador or partner</a></p>
+      <p style="margin-top:1.2rem;"><a class="btn btn-line" href={withBase("/careers")}>Join as an ambassador or partner</a></p>
     </div>
   </section>
 
@@ -151,7 +152,7 @@ const picks = featured();
         <a class="btn" href="tel:+639776821438">Call</a>
         <a class="btn btn-ghost" href="viber://chat?number=%2B639776821438">Viber</a>
         <a class="btn btn-ghost" href="https://wa.me/639776821438">WhatsApp</a>
-        <a class="btn btn-ghost" href="/contact">Contact page</a>
+        <a class="btn btn-ghost" href={withBase("/contact")}>Contact page</a>
       </div>
     </div>
   </section>
