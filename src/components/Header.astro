@@ -1,0 +1,46 @@
+---
+import Logo from "./Logo.astro";
+const path = Astro.url.pathname.replace(/\/$/, "") || "/";
+const links = [
+  { href: "/", label: "Home" },
+  { href: "/projects", label: "Projects" },
+  { href: "/about", label: "About Us" },
+  { href: "/careers", label: "Careers" },
+  { href: "/contact", label: "Contact" },
+];
+---
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="/" aria-label="CRF Amazing Group home">
+      <Logo invert={true} />
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" id="nav-toggle">
+      Menu
+    </button>
+    <div class="nav-panel" id="site-nav">
+      <nav class="nav" aria-label="Primary">
+        {links.map((l) => (
+          <a href={l.href} aria-current={path === l.href || (l.href !== "/" && path.startsWith(l.href)) ? "page" : undefined}>
+            {l.label}
+          </a>
+        ))}
+      </nav>
+    </div>
+    <div class="header-actions">
+      <a class="btn" href="tel:+639776821438">Call</a>
+      <a class="btn btn-ghost" href="viber://chat?number=%2B639776821438">Viber</a>
+      <a class="btn btn-ghost" href="https://wa.me/639776821438">WhatsApp</a>
+    </div>
+  </div>
+</header>
+<script>
+  const btn = document.getElementById("nav-toggle");
+  const panel = document.getElementById("site-nav");
+  btn?.addEventListener("click", () => {
+    const open = btn.getAttribute("aria-expanded") === "true";
+    btn.setAttribute("aria-expanded", String(!open));
+    panel?.classList.toggle("is-open", !open);
+    btn.textContent = open ? "Menu" : "Close";
+  });
+</script>

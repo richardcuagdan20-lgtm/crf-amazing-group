@@ -1,0 +1,84 @@
+---
+import Base from "../layouts/Base.astro";
+import { projects } from "../data/catalog.js";
+---
+<Base title="Contact" description="Call, Viber, WhatsApp, or email Crystal Flores at CRF Amazing Group. 0977 682 1438.">
+  <section class="page-intro">
+    <div class="wrap">
+      <h1>Contact Crystal</h1>
+      <p class="lede">Tap to call, open Viber or WhatsApp, or send an email. If you prefer a form, it will open a prefilled message — nothing is stored on this website.</p>
+      <p>
+        <a class="phone" href="tel:+639776821438">0977 682 1438</a>
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-navy" href="tel:+639776821438">Call</a>
+        <a class="btn btn-line" href="viber://chat?number=%2B639776821438">Viber</a>
+        <a class="btn btn-line" href="https://wa.me/639776821438">WhatsApp</a>
+        <a class="btn btn-line" href="mailto:crystalflores.rpmmc@gmail.com">Email</a>
+      </div>
+    </div>
+  </section>
+
+  <section style="padding-top:0.5rem;">
+    <div class="wrap">
+      <h2>Send a short inquiry</h2>
+      <form id="inquiry-form" action="#" method="get">
+        <label for="name">Your name</label>
+        <input id="name" name="name" type="text" autocomplete="name" required />
+
+        <label for="reach">Your phone or email</label>
+        <input id="reach" name="reach" type="text" autocomplete="tel" required />
+
+        <label for="country">Country or city (optional)</label>
+        <input id="country" name="country" type="text" autocomplete="country-name" />
+
+        <label for="project">Project of interest</label>
+        <select id="project" name="project">
+          <option value="">I’m not sure yet</option>
+          {projects.map((p) => <option value={p.name}>{p.name}</option>)}
+        </select>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5"></textarea>
+
+        <div class="form-actions">
+          <button class="btn btn-navy" type="submit" data-channel="email">Email Crystal</button>
+          <button class="btn btn-line" type="submit" data-channel="whatsapp">WhatsApp Crystal</button>
+        </div>
+      </form>
+    </div>
+  </section>
+</Base>
+
+<script>
+  const form = document.getElementById("inquiry-form");
+  let channel = "email";
+  form?.querySelectorAll("button[data-channel]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      channel = btn.getAttribute("data-channel") || "email";
+    });
+  });
+  form?.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const fd = new FormData(form);
+    const name = String(fd.get("name") || "").trim();
+    const reach = String(fd.get("reach") || "").trim();
+    const country = String(fd.get("country") || "").trim();
+    const project = String(fd.get("project") || "").trim();
+    const message = String(fd.get("message") || "").trim();
+    const lines = [
+      `Hi Crystal, my name is ${name || "(name)"}.`,
+      reach ? `You can reach me at ${reach}.` : "",
+      country ? `I am based in ${country}.` : "",
+      project ? `I am inquiring about ${project}.` : "I would like to inquire about a home.",
+      message,
+    ].filter(Boolean);
+    const body = lines.join(" ");
+    if (channel === "whatsapp") {
+      window.location.href = `https://wa.me/639776821438?text=${encodeURIComponent(body)}`;
+    } else {
+      const subject = encodeURIComponent(project ? `Inquiry: ${project}` : "Inquiry from the CRF Amazing Group website");
+      window.location.href = `mailto:crystalflores.rpmmc@gmail.com?subject=${subject}&body=${encodeURIComponent(body)}`;
+    }
+  });
+</script>

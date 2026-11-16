@@ -1,0 +1,22 @@
+---
+---
+<div class="sticky-contact" id="sticky-contact">
+  <div class="sticky-panel" id="sticky-panel">
+    <a class="btn" href="tel:+639776821438">Call 0977 682 1438</a>
+    <a class="btn" href="viber://chat?number=%2B639776821438">Viber</a>
+    <a class="btn" href="https://wa.me/639776821438">WhatsApp</a>
+    <a class="btn btn-navy" href="mailto:crystalflores.rpmmc@gmail.com">Email</a>
+  </div>
+  <button class="btn" type="button" id="sticky-toggle" aria-expanded="false" aria-controls="sticky-panel">
+    Contact Crystal
+  </button>
+</div>
+<script>
+  const root = document.getElementById("sticky-contact");
+  const btn = document.getElementById("sticky-toggle");
+  btn?.addEventListener("click", () => {
+    const open = root?.classList.toggle("is-open");
+    btn.setAttribute("aria-expanded", String(!!open));
+    btn.textContent = open ? "Close" : "Contact Crystal";
+  });
+</script>

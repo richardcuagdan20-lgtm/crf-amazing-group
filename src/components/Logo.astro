@@ -1,0 +1,9 @@
+---
+/**
+ * Logo slot: replace public/brand/logo.svg (or logo.png) with the official mark.
+ * Until then this typographic wordmark is used.
+ */
+const { invert = false } = Astro.props;
+const src = invert ? "/brand/logo.svg" : "/brand/wordmark.svg";
+---
+<img src={src} alt="CRF Amazing Group" width="262" height="48" class="logo-img" />

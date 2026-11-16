@@ -1,0 +1,105 @@
+---
+import Base from "../../layouts/Base.astro";
+import { projects, cities, imgSrc, typeLabel } from "../../data/catalog.js";
+
+const cityList = cities();
+---
+<Base title="Projects" description="Browse RLC Residences projects Crystal Flores can help you with, by city or type.">
+  <section class="page-intro">
+    <div class="wrap">
+      <h1>Projects</h1>
+      <p class="lede">
+        Browse by city, or view all properties. Message Crystal to confirm what’s available and the current price.
+      </p>
+      <div class="filter-bar" role="navigation" aria-label="Filter by location" id="filter-location">
+        <a href="/projects" data-city="all">All locations</a>
+        {cityList.map((c) => (
+          <a href={`/projects?location=${encodeURIComponent(c)}`} data-city={c}>{c}</a>
+        ))}
+      </div>
+      <div class="filter-bar" role="navigation" aria-label="Filter by type" id="filter-type">
+        <a href="/projects" data-type="all">All types</a>
+        <a href="/projects?type=condo" data-type="condo">Condominiums</a>
+        <a href="/projects?type=house-and-lot" data-type="house-and-lot">House and lot</a>
+      </div>
+      <p class="kicker" id="filter-count">{projects.length} projects</p>
+    </div>
+  </section>
+  <section style="padding-top:0;">
+    <div class="wrap">
+      <div class="dir" id="project-dir">
+        {projects.map((p) => (
+          <a class="dir-item" href={`/projects/${p.slug}`} data-city={p.city} data-type={p.type}>
+            {p.hero && (
+              <img src={imgSrc(p.hero.file)} alt="" width={p.hero.width} height={p.hero.height} />
+            )}
+            <div>
+              <p class="dir-name">{p.name}</p>
+              <p class="dir-meta">
+                {p.location} · {typeLabel(p.type)}
+                {p.facts?.price ? ` · ${p.facts.price}` : ""}
+              </p>
+            </div>
+            <span class="btn btn-line">View</span>
+          </a>
+        ))}
+      </div>
+      <p id="filter-empty" hidden>No projects match these filters. <a href="/projects">View all properties</a>.</p>
+    </div>
+  </section>
+</Base>
+
+<script>
+  function applyFilters() {
+    const q = new URLSearchParams(window.location.search);
+    const city = q.get("location") || "all";
+    const typ = q.get("type") || "all";
+
+    document.querySelectorAll("#filter-location a").forEach((a) => {
+      const match = a.getAttribute("data-city") === city;
+      if (match) a.setAttribute("aria-current", "true");
+      else a.removeAttribute("aria-current");
+      const next = new URLSearchParams();
+      if ((a.getAttribute("data-city") || "all") !== "all") next.set("location", a.getAttribute("data-city") || "");
+      if (typ !== "all") next.set("type", typ);
+      const s = next.toString();
+      a.setAttribute("href", s ? `/projects?${s}` : "/projects");
+    });
+
+    document.querySelectorAll("#filter-type a").forEach((a) => {
+      const match = a.getAttribute("data-type") === typ;
+      if (match) a.setAttribute("aria-current", "true");
+      else a.removeAttribute("aria-current");
+      const next = new URLSearchParams();
+      if (city !== "all") next.set("location", city);
+      if ((a.getAttribute("data-type") || "all") !== "all") next.set("type", a.getAttribute("data-type") || "");
+      const s = next.toString();
+      a.setAttribute("href", s ? `/projects?${s}` : "/projects");
+    });
+
+    let shown = 0;
+    document.querySelectorAll("#project-dir .dir-item").forEach((el) => {
+      const okCity = city === "all" || el.getAttribute("data-city") === city;
+      const okType = typ === "all" || el.getAttribute("data-type") === typ;
+      const show = okCity && okType;
+      el.toggleAttribute("hidden", !show);
+      if (show) shown += 1;
+    });
+    const count = document.getElementById("filter-count");
+    if (count) count.textContent = `${shown} ${shown === 1 ? "project" : "projects"}`;
+    const empty = document.getElementById("filter-empty");
+    if (empty) empty.hidden = shown !== 0;
+  }
+
+  applyFilters();
+  window.addEventListener("popstate", applyFilters);
+  document.querySelectorAll("#filter-location a, #filter-type a").forEach((a) => {
+    a.addEventListener("click", (e) => {
+      const href = a.getAttribute("href");
+      if (!href) return;
+      e.preventDefault();
+      history.pushState({}, "", href);
+      applyFilters();
+    });
+  });
+</script>

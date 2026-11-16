@@ -1,0 +1,98 @@
+---
+import Base from "../../layouts/Base.astro";
+import { projects, imgSrc, inquireHref, typeLabel, bySlug, rfoLabel } from "../../data/catalog.js";
+
+export function getStaticPaths() {
+  return projects.map((p) => ({ params: { slug: p.slug } }));
+}
+
+const { slug } = Astro.params;
+const p = bySlug(slug);
+if (!p) throw new Error("Unknown project");
+
+const facts = p.facts || {};
+const gallery = (p.gallery || []).filter((i) => (i.bytes || 0) > 8000);
+const plans = p.plans || [];
+---
+<Base title={p.name} description={`${p.name} in ${p.location}. Talk to Crystal Flores about this ${typeLabel(p.type).toLowerCase()}.`}>
+  <article>
+    <div class="wrap proj-hero">
+      <div>
+        {p.hero && (
+          <img src={imgSrc(p.hero.file)} alt={`${p.name} at ${p.location}`} width={p.hero.width} height={p.hero.height} />
+        )}
+      </div>
+      <div>
+        <p class="kicker">{p.location} · {typeLabel(p.type)}</p>
+        <h1>{p.name}</h1>
+        {p.is_rfo && <p><strong>Ready now:</strong> {rfoLabel(p.status)}</p>}
+        {p.is_preselling && (
+          <p>{p.is_rfo ? "Some towers are still pre-selling. Message Crystal for what’s available now." : "This project is currently pre-selling. Message Crystal for the latest release."}</p>
+        )}
+        <p>
+          Crystal can walk you through this project and check what’s available now.
+        </p>
+        <ul class="facts">
+          {facts.unit_types?.length ? <li><strong>Unit types:</strong> {facts.unit_types.join(", ")}</li> : null}
+          {facts.sizes ? <li><strong>Sizes:</strong> {facts.sizes}</li> : null}
+          {facts.price ? <li><strong>Price range:</strong> {facts.price}</li> : null}
+        </ul>
+        <div class="hero-actions">
+          <a class="btn btn-navy" href={inquireHref(p.name, "whatsapp")}>Inquire on WhatsApp</a>
+          <a class="btn btn-line" href={`viber://chat?number=%2B639776821438`}>Viber</a>
+          <a class="btn btn-line" href="tel:+639776821438">Call</a>
+          <a class="btn btn-line" href={inquireHref(p.name, "email")}>Email</a>
+        </div>
+        {p.source_url && (
+          <p class="kicker" style="margin-top:1.2rem;">
+            Developer listing: <a href={p.source_url} rel="noopener noreferrer">{p.name}</a>
+          </p>
+        )}
+      </div>
+    </div>
+
+    {gallery.length > 0 && (
+      <section>
+        <div class="wrap">
+          <h2>Gallery</h2>
+          <div class="gallery">
+            {gallery.map((im) => (
+              <figure>
+                <img src={imgSrc(im.file)} alt={`${p.name} gallery`} width={im.width} height={im.height} />
+              </figure>
+            ))}
+          </div>
+        </div>
+      </section>
+    )}
+
+    {plans.length > 0 && (
+      <section style="padding-top:0;">
+        <div class="wrap">
+          <h2>Plans and site layouts</h2>
+          <p class="lede">Ask Crystal to walk you through the current layouts and options.</p>
+          <div class="plans">
+            {plans.map((im) => (
+              <figure>
+                <img src={imgSrc(im.file)} alt={`${p.name} plan`} width={im.width} height={im.height} />
+              </figure>
+            ))}
+          </div>
+        </div>
+      </section>
+    )}
+
+    <section style="background:var(--navy);color:var(--ivory);">
+      <div class="wrap">
+        <h2 style="color:var(--ivory);">Inquire about {p.name}</h2>
+        <p style="color:var(--gold-light);">Send Crystal a message about this project.</p>
+        <div class="hero-actions">
+          <a class="btn" href={inquireHref(p.name, "whatsapp")}>WhatsApp</a>
+          <a class="btn btn-ghost" href="viber://chat?number=%2B639776821438">Viber</a>
+          <a class="btn btn-ghost" href="tel:+639776821438">Call 0977 682 1438</a>
+          <a class="btn btn-ghost" href={inquireHref(p.name, "email")}>Email</a>
+        </div>
+      </div>
+    </section>
+  </article>
+</Base>

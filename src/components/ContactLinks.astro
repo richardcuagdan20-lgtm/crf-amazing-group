@@ -1,0 +1,11 @@
+---
+const { variant = "gold", compact = false } = Astro.props;
+const phone = "0977 682 1438";
+const cls = variant === "ghost" ? "btn btn-ghost" : variant === "line" ? "btn btn-line" : "btn";
+---
+<a class={cls} href="tel:+639776821438">Call {compact ? "" : phone}</a>
+<a class={cls} href="viber://chat?number=%2B639776821438">Viber</a>
+<a class={cls} href="https://wa.me/639776821438">WhatsApp</a>
+{!compact && (
+  <a class={cls} href="mailto:crystalflores.rpmmc@gmail.com">Email</a>
+)}

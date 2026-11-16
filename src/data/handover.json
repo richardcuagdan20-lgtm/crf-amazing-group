@@ -1,0 +1,4 @@
+{
+  "notes": "Add one object to releases for each handover Crystal confirms. Fields: project, slug (optional, matches projects.json), tower_or_unit, location, release_date (only if she supplies one), photo (optional path under /images/; leave blank to use the project hero when slug matches), note (optional short buyer-facing line). Leave releases empty until she sends the list. Do not invent dates or inventory.",
+  "releases": []
+}

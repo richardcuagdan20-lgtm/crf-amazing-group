@@ -1,0 +1,2329 @@
+{
+  "projects": [
+    {
+      "name": "AmiSa Private Residences",
+      "slug": "amisa-private-residences",
+      "location": "Mactan, Lapu-Lapu City",
+      "city": "Lapu-Lapu City",
+      "type": "condo",
+      "status": "City of Lapu-Lapu Tower D — Pre-selling; City of Lapu-Lapu Tower A — Ready for Occupancy",
+      "is_rfo": true,
+      "is_preselling": true,
+      "facts": {
+        "unit_types": [
+          "1BR",
+          "2BR",
+          "Studio"
+        ],
+        "price": "PHP 9.0M - 54.6M",
+        "as_shown_on": "rlcresidences.com listing and/or project page, retrieved 14 November 2026"
+      },
+      "source_url": "https://www.rlcresidences.com/properties/amisa-private-residences",
+      "hero": {
+        "file": "amisa-private-residences/hero.webp",
+        "role": "hero",
+        "width": 524,
+        "height": 508,
+        "bytes": 56512,
+        "alt": "AmiSa Private Residences — hero"
+      },
+      "gallery": [
+        {
+          "file": "amisa-private-residences/gallery-01-AMISA-copy.webp",
+          "role": "gallery_or_amenity",
+          "width": 1200,
+          "height": 414,
+          "bytes": 94530,
+          "alt": "AmiSa Private Residences — gallery or amenity"
+        },
+        {
+          "file": "amisa-private-residences/gallery-02-AmiSa-D-with-Clubhouse.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 141004,
+          "alt": "AmiSa Private Residences — gallery or amenity"
+        },
+        {
+          "file": "amisa-private-residences/gallery-03-AmiSa-D-1BR-1.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 138112,
+          "alt": "AmiSa Private Residences — gallery or amenity"
+        },
+        {
+          "file": "amisa-private-residences/gallery-04-AmiSa-D-2BR-2.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 98334,
+          "alt": "AmiSa Private Residences — gallery or amenity"
+        },
+        {
+          "file": "amisa-private-residences/amenity-05-Amisa_Lobby-Lounge.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 143476,
+          "alt": "AmiSa Private Residences — gallery or amenity"
+        }
+      ],
+      "plans": [],
+      "images": [
+        {
+          "file": "amisa-private-residences/hero.webp",
+          "role": "hero",
+          "width": 524,
+          "height": 508,
+          "bytes": 56512,
+          "alt": "AmiSa Private Residences — hero"
+        },
+        {
+          "file": "amisa-private-residences/gallery-01-AMISA-copy.webp",
+          "role": "gallery_or_amenity",
+          "width": 1200,
+          "height": 414,
+          "bytes": 94530,
+          "alt": "AmiSa Private Residences — gallery or amenity"
+        },
+        {
+          "file": "amisa-private-residences/gallery-02-AmiSa-D-with-Clubhouse.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 141004,
+          "alt": "AmiSa Private Residences — gallery or amenity"
+        },
+        {
+          "file": "amisa-private-residences/gallery-03-AmiSa-D-1BR-1.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 138112,
+          "alt": "AmiSa Private Residences — gallery or amenity"
+        },
+        {
+          "file": "amisa-private-residences/gallery-04-AmiSa-D-2BR-2.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 98334,
+          "alt": "AmiSa Private Residences — gallery or amenity"
+        },
+        {
+          "file": "amisa-private-residences/amenity-05-Amisa_Lobby-Lounge.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 143476,
+          "alt": "AmiSa Private Residences — gallery or amenity"
+        }
+      ]
+    },
+    {
+      "name": "Aurora Escalades",
+      "slug": "aurora-escalades",
+      "location": "Cubao, Quezon City",
+      "city": "Quezon City",
+      "type": "condo",
+      "status": "Quezon City Tower 1 — Ready for Occupancy",
+      "is_rfo": true,
+      "is_preselling": false,
+      "facts": {
+        "unit_types": [
+          "Studio"
+        ],
+        "price": "PHP 4.4M - 4.8M",
+        "as_shown_on": "rlcresidences.com listing and/or project page, retrieved 14 November 2026"
+      },
+      "source_url": "https://www.rlcresidences.com/properties/aurora-escalades",
+      "hero": {
+        "file": "aurora-escalades/hero.webp",
+        "role": "hero",
+        "width": 524,
+        "height": 508,
+        "bytes": 42278,
+        "alt": "Aurora Escalades — hero"
+      },
+      "gallery": [
+        {
+          "file": "aurora-escalades/gallery-01-aet.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 482,
+          "bytes": 58024,
+          "alt": "Aurora Escalades — gallery or amenity"
+        },
+        {
+          "file": "aurora-escalades/gallery-02-RE-AURORA-PHOTO.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 1050,
+          "bytes": 250794,
+          "alt": "Aurora Escalades — gallery or amenity"
+        },
+        {
+          "file": "aurora-escalades/gallery-03-RE-AURORA-PHOTO-6.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 1050,
+          "bytes": 190344,
+          "alt": "Aurora Escalades — gallery or amenity"
+        },
+        {
+          "file": "aurora-escalades/gallery-04-_RHN7146.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 933,
+          "bytes": 136896,
+          "alt": "Aurora Escalades — gallery or amenity"
+        },
+        {
+          "file": "aurora-escalades/gallery-05-_RHN7125-2-.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 933,
+          "bytes": 117614,
+          "alt": "Aurora Escalades — gallery or amenity"
+        }
+      ],
+      "plans": [],
+      "images": [
+        {
+          "file": "aurora-escalades/hero.webp",
+          "role": "hero",
+          "width": 524,
+          "height": 508,
+          "bytes": 42278,
+          "alt": "Aurora Escalades — hero"
+        },
+        {
+          "file": "aurora-escalades/gallery-01-aet.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 482,
+          "bytes": 58024,
+          "alt": "Aurora Escalades — gallery or amenity"
+        },
+        {
+          "file": "aurora-escalades/gallery-02-RE-AURORA-PHOTO.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 1050,
+          "bytes": 250794,
+          "alt": "Aurora Escalades — gallery or amenity"
+        },
+        {
+          "file": "aurora-escalades/gallery-03-RE-AURORA-PHOTO-6.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 1050,
+          "bytes": 190344,
+          "alt": "Aurora Escalades — gallery or amenity"
+        },
+        {
+          "file": "aurora-escalades/gallery-04-_RHN7146.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 933,
+          "bytes": 136896,
+          "alt": "Aurora Escalades — gallery or amenity"
+        },
+        {
+          "file": "aurora-escalades/gallery-05-_RHN7125-2-.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 933,
+          "bytes": 117614,
+          "alt": "Aurora Escalades — gallery or amenity"
+        }
+      ]
+    },
+    {
+      "name": "Bloomfields General Santos",
+      "slug": "bloomfields-general-santos",
+      "location": "Brgy. Labangal, General Santos City",
+      "city": "General Santos City",
+      "type": "house-and-lot",
+      "status": null,
+      "is_rfo": false,
+      "is_preselling": false,
+      "facts": {
+        "sizes": "216-487 sq. m; 487 sq. m",
+        "price": "PHP 2.7M - 7.1M",
+        "as_shown_on": "rlcresidences.com listing and/or project page, retrieved 14 November 2026"
+      },
+      "source_url": "https://www.rlcresidences.com/properties/bloomfields-general-santos",
+      "hero": {
+        "file": "bloomfields-general-santos/hero.webp",
+        "role": "hero",
+        "width": 1440,
+        "height": 496,
+        "bytes": 147892,
+        "alt": "Bloomfields General Santos — hero"
+      },
+      "gallery": [
+        {
+          "file": "bloomfields-general-santos/gallery-01-BFG-2.webp",
+          "role": "gallery_or_amenity",
+          "width": 524,
+          "height": 508,
+          "bytes": 36538,
+          "alt": "Bloomfields General Santos — gallery or amenity"
+        },
+        {
+          "file": "bloomfields-general-santos/gallery-02-BFG-SDP_2-website-ver-.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 1498,
+          "bytes": 221598,
+          "alt": "Bloomfields General Santos — gallery or amenity"
+        },
+        {
+          "file": "bloomfields-general-santos/gallery-03-POOL-MANS-VIEW-1-.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 662,
+          "bytes": 157040,
+          "alt": "Bloomfields General Santos — gallery or amenity"
+        },
+        {
+          "file": "bloomfields-general-santos/gallery-04-BFG_PYLON-2014-6-27-Copy-1-.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 814,
+          "bytes": 90682,
+          "alt": "Bloomfields General Santos — gallery or amenity"
+        },
+        {
+          "file": "bloomfields-general-santos/gallery-05-CHAPEL-FRONT-1copy.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 898,
+          "bytes": 189418,
+          "alt": "Bloomfields General Santos — gallery or amenity"
+        }
+      ],
+      "plans": [
+        {
+          "file": "bloomfields-general-santos/plan-01-BFG-AERIAL-COMPRESSED.webp",
+          "role": "plan",
+          "width": 922,
+          "height": 634,
+          "bytes": 91996,
+          "alt": "Bloomfields General Santos — plan"
+        }
+      ],
+      "images": [
+        {
+          "file": "bloomfields-general-santos/hero.webp",
+          "role": "hero",
+          "width": 1440,
+          "height": 496,
+          "bytes": 147892,
+          "alt": "Bloomfields General Santos — hero"
+        },
+        {
+          "file": "bloomfields-general-santos/gallery-01-BFG-2.webp",
+          "role": "gallery_or_amenity",
+          "width": 524,
+          "height": 508,
+          "bytes": 36538,
+          "alt": "Bloomfields General Santos — gallery or amenity"
+        },
+        {
+          "file": "bloomfields-general-santos/gallery-02-BFG-SDP_2-website-ver-.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 1498,
+          "bytes": 221598,
+          "alt": "Bloomfields General Santos — gallery or amenity"
+        },
+        {
+          "file": "bloomfields-general-santos/gallery-03-POOL-MANS-VIEW-1-.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 662,
+          "bytes": 157040,
+          "alt": "Bloomfields General Santos — gallery or amenity"
+        },
+        {
+          "file": "bloomfields-general-santos/gallery-04-BFG_PYLON-2014-6-27-Copy-1-.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 814,
+          "bytes": 90682,
+          "alt": "Bloomfields General Santos — gallery or amenity"
+        },
+        {
+          "file": "bloomfields-general-santos/gallery-05-CHAPEL-FRONT-1copy.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 898,
+          "bytes": 189418,
+          "alt": "Bloomfields General Santos — gallery or amenity"
+        },
+        {
+          "file": "bloomfields-general-santos/plan-01-BFG-AERIAL-COMPRESSED.webp",
+          "role": "plan",
+          "width": 922,
+          "height": 634,
+          "bytes": 91996,
+          "alt": "Bloomfields General Santos — plan"
+        }
+      ]
+    },
+    {
+      "name": "Cirrus",
+      "slug": "cirrus",
+      "location": "Bridgetowne East, Pasig City",
+      "city": "Pasig City",
+      "type": "condo",
+      "status": null,
+      "is_rfo": false,
+      "is_preselling": false,
+      "facts": {
+        "unit_types": [
+          "Studio"
+        ],
+        "price": "PHP 6.6M - 7.5M",
+        "as_shown_on": "rlcresidences.com listing and/or project page, retrieved 14 November 2026"
+      },
+      "source_url": "https://www.rlcresidences.com/properties/cirrus",
+      "hero": {
+        "file": "cirrus/hero.webp",
+        "role": "hero",
+        "width": 1600,
+        "height": 900,
+        "bytes": 288508,
+        "alt": "Cirrus — hero"
+      },
+      "gallery": [
+        {
+          "file": "cirrus/gallery-01-cirrus-photo-6.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 933,
+          "bytes": 95984,
+          "alt": "Cirrus — gallery or amenity"
+        },
+        {
+          "file": "cirrus/gallery-02-cirrus-photo-4.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 933,
+          "bytes": 134438,
+          "alt": "Cirrus — gallery or amenity"
+        },
+        {
+          "file": "cirrus/gallery-03-cirrus-photo-3.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 933,
+          "bytes": 69018,
+          "alt": "Cirrus — gallery or amenity"
+        },
+        {
+          "file": "cirrus/gallery-04-cirrus-photo-1.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 933,
+          "bytes": 77632,
+          "alt": "Cirrus — gallery or amenity"
+        },
+        {
+          "file": "cirrus/gallery-05-cirrus-photo-2.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 933,
+          "bytes": 75428,
+          "alt": "Cirrus — gallery or amenity"
+        }
+      ],
+      "plans": [
+        {
+          "file": "cirrus/plan-01-cirrus-site-development.webp",
+          "role": "plan",
+          "width": 1440,
+          "height": 696,
+          "bytes": 66686,
+          "alt": "Cirrus — plan"
+        }
+      ],
+      "images": [
+        {
+          "file": "cirrus/hero.webp",
+          "role": "hero",
+          "width": 1600,
+          "height": 900,
+          "bytes": 288508,
+          "alt": "Cirrus — hero"
+        },
+        {
+          "file": "cirrus/gallery-01-cirrus-photo-6.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 933,
+          "bytes": 95984,
+          "alt": "Cirrus — gallery or amenity"
+        },
+        {
+          "file": "cirrus/gallery-02-cirrus-photo-4.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 933,
+          "bytes": 134438,
+          "alt": "Cirrus — gallery or amenity"
+        },
+        {
+          "file": "cirrus/gallery-03-cirrus-photo-3.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 933,
+          "bytes": 69018,
+          "alt": "Cirrus — gallery or amenity"
+        },
+        {
+          "file": "cirrus/gallery-04-cirrus-photo-1.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 933,
+          "bytes": 77632,
+          "alt": "Cirrus — gallery or amenity"
+        },
+        {
+          "file": "cirrus/gallery-05-cirrus-photo-2.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 933,
+          "bytes": 75428,
+          "alt": "Cirrus — gallery or amenity"
+        },
+        {
+          "file": "cirrus/plan-01-cirrus-site-development.webp",
+          "role": "plan",
+          "width": 1440,
+          "height": 696,
+          "bytes": 66686,
+          "alt": "Cirrus — plan"
+        }
+      ]
+    },
+    {
+      "name": "Forbes Estates Lipa",
+      "slug": "forbes-estates-lipa",
+      "location": "Brgy. Marawoy, Lipa City",
+      "city": "Lipa City",
+      "type": "house-and-lot",
+      "status": null,
+      "is_rfo": false,
+      "is_preselling": false,
+      "facts": {
+        "sizes": "523-686 sq. m; 487-701 sq. m; 500-737 sq. m; 466-944 sq. m; 686 sq. m; 701 sq. m; 737 sq. m; 944 sq. m",
+        "price": "PHP 13.5M - 33.5M",
+        "as_shown_on": "rlcresidences.com listing and/or project page, retrieved 14 November 2026"
+      },
+      "source_url": "https://www.rlcresidences.com/properties/forbes-estates-lipa",
+      "hero": {
+        "file": "forbes-estates-lipa/hero.webp",
+        "role": "hero",
+        "width": 500,
+        "height": 297,
+        "bytes": 40680,
+        "alt": "Forbes Estates Lipa — hero"
+      },
+      "gallery": [
+        {
+          "file": "forbes-estates-lipa/gallery-01-fel.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 482,
+          "bytes": 97590,
+          "alt": "Forbes Estates Lipa — gallery or amenity"
+        },
+        {
+          "file": "forbes-estates-lipa/gallery-02-FEL-LG.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 391,
+          "bytes": 2626,
+          "alt": "Forbes Estates Lipa — gallery or amenity"
+        },
+        {
+          "file": "forbes-estates-lipa/gallery-03-FEL-SDP-9.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 971,
+          "bytes": 82300,
+          "alt": "Forbes Estates Lipa — gallery or amenity"
+        },
+        {
+          "file": "forbes-estates-lipa/gallery-04-Aerial-View-of-the-Estate-Park.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 778,
+          "bytes": 198648,
+          "alt": "Forbes Estates Lipa — gallery or amenity"
+        },
+        {
+          "file": "forbes-estates-lipa/gallery-05-Wellness-Park.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 857,
+          "bytes": 285202,
+          "alt": "Forbes Estates Lipa — gallery or amenity"
+        }
+      ],
+      "plans": [
+        {
+          "file": "forbes-estates-lipa/plan-01-FEL-Club-Lots.webp",
+          "role": "plan",
+          "width": 1800,
+          "height": 1039,
+          "bytes": 209818,
+          "alt": "Forbes Estates Lipa — plan"
+        },
+        {
+          "file": "forbes-estates-lipa/plan-02-FEL-Park-Loop.webp",
+          "role": "plan",
+          "width": 1800,
+          "height": 1069,
+          "bytes": 503940,
+          "alt": "Forbes Estates Lipa — plan"
+        },
+        {
+          "file": "forbes-estates-lipa/plan-03-FEL-Courtyards.webp",
+          "role": "plan",
+          "width": 1800,
+          "height": 993,
+          "bytes": 291736,
+          "alt": "Forbes Estates Lipa — plan"
+        },
+        {
+          "file": "forbes-estates-lipa/plan-04-FEL-Estate-Lots.webp",
+          "role": "plan",
+          "width": 1800,
+          "height": 1117,
+          "bytes": 314466,
+          "alt": "Forbes Estates Lipa — plan"
+        }
+      ],
+      "images": [
+        {
+          "file": "forbes-estates-lipa/hero.webp",
+          "role": "hero",
+          "width": 500,
+          "height": 297,
+          "bytes": 40680,
+          "alt": "Forbes Estates Lipa — hero"
+        },
+        {
+          "file": "forbes-estates-lipa/gallery-01-fel.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 482,
+          "bytes": 97590,
+          "alt": "Forbes Estates Lipa — gallery or amenity"
+        },
+        {
+          "file": "forbes-estates-lipa/gallery-02-FEL-LG.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 391,
+          "bytes": 2626,
+          "alt": "Forbes Estates Lipa — gallery or amenity"
+        },
+        {
+          "file": "forbes-estates-lipa/gallery-03-FEL-SDP-9.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 971,
+          "bytes": 82300,
+          "alt": "Forbes Estates Lipa — gallery or amenity"
+        },
+        {
+          "file": "forbes-estates-lipa/gallery-04-Aerial-View-of-the-Estate-Park.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 778,
+          "bytes": 198648,
+          "alt": "Forbes Estates Lipa — gallery or amenity"
+        },
+        {
+          "file": "forbes-estates-lipa/gallery-05-Wellness-Park.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 857,
+          "bytes": 285202,
+          "alt": "Forbes Estates Lipa — gallery or amenity"
+        },
+        {
+          "file": "forbes-estates-lipa/plan-01-FEL-Club-Lots.webp",
+          "role": "plan",
+          "width": 1800,
+          "height": 1039,
+          "bytes": 209818,
+          "alt": "Forbes Estates Lipa — plan"
+        },
+        {
+          "file": "forbes-estates-lipa/plan-02-FEL-Park-Loop.webp",
+          "role": "plan",
+          "width": 1800,
+          "height": 1069,
+          "bytes": 503940,
+          "alt": "Forbes Estates Lipa — plan"
+        },
+        {
+          "file": "forbes-estates-lipa/plan-03-FEL-Courtyards.webp",
+          "role": "plan",
+          "width": 1800,
+          "height": 993,
+          "bytes": 291736,
+          "alt": "Forbes Estates Lipa — plan"
+        },
+        {
+          "file": "forbes-estates-lipa/plan-04-FEL-Estate-Lots.webp",
+          "role": "plan",
+          "width": 1800,
+          "height": 1117,
+          "bytes": 314466,
+          "alt": "Forbes Estates Lipa — plan"
+        }
+      ]
+    },
+    {
+      "name": "Galleria Residences Cebu",
+      "slug": "galleria-residences-cebu",
+      "location": "Maxilom Ave., Cebu City",
+      "city": "Cebu City",
+      "type": "condo",
+      "status": "City of Cebu (Capital) Tower 1 — Ready for Occupancy; City of Cebu (Capital) Tower 3 — Ready for Occupancy",
+      "is_rfo": true,
+      "is_preselling": false,
+      "facts": {
+        "unit_types": [
+          "Executive 1BR",
+          "1BR",
+          "2BR"
+        ],
+        "price": "PHP 6.0M - 18.2M",
+        "as_shown_on": "rlcresidences.com listing and/or project page, retrieved 14 November 2026"
+      },
+      "source_url": "https://www.rlcresidences.com/properties/galleria-residences-cebu",
+      "hero": {
+        "file": "galleria-residences-cebu/hero.webp",
+        "role": "hero",
+        "width": 524,
+        "height": 508,
+        "bytes": 52936,
+        "alt": "Galleria Residences Cebu — hero"
+      },
+      "gallery": [
+        {
+          "file": "galleria-residences-cebu/gallery-01-GRC.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 482,
+          "bytes": 78292,
+          "alt": "Galleria Residences Cebu — gallery or amenity"
+        },
+        {
+          "file": "galleria-residences-cebu/gallery-02-Lobby.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 653,
+          "bytes": 84068,
+          "alt": "Galleria Residences Cebu — gallery or amenity"
+        },
+        {
+          "file": "galleria-residences-cebu/gallery-03-Kids_-Pool_NightShot.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 699,
+          "bytes": 124054,
+          "alt": "Galleria Residences Cebu — gallery or amenity"
+        },
+        {
+          "file": "galleria-residences-cebu/gallery-04-Fitness-Gym.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 788,
+          "bytes": 129230,
+          "alt": "Galleria Residences Cebu — gallery or amenity"
+        },
+        {
+          "file": "galleria-residences-cebu/gallery-05-DSC_0403.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 935,
+          "bytes": 113568,
+          "alt": "Galleria Residences Cebu — gallery or amenity"
+        }
+      ],
+      "plans": [],
+      "images": [
+        {
+          "file": "galleria-residences-cebu/hero.webp",
+          "role": "hero",
+          "width": 524,
+          "height": 508,
+          "bytes": 52936,
+          "alt": "Galleria Residences Cebu — hero"
+        },
+        {
+          "file": "galleria-residences-cebu/gallery-01-GRC.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 482,
+          "bytes": 78292,
+          "alt": "Galleria Residences Cebu — gallery or amenity"
+        },
+        {
+          "file": "galleria-residences-cebu/gallery-02-Lobby.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 653,
+          "bytes": 84068,
+          "alt": "Galleria Residences Cebu — gallery or amenity"
+        },
+        {
+          "file": "galleria-residences-cebu/gallery-03-Kids_-Pool_NightShot.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 699,
+          "bytes": 124054,
+          "alt": "Galleria Residences Cebu — gallery or amenity"
+        },
+        {
+          "file": "galleria-residences-cebu/gallery-04-Fitness-Gym.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 788,
+          "bytes": 129230,
+          "alt": "Galleria Residences Cebu — gallery or amenity"
+        },
+        {
+          "file": "galleria-residences-cebu/gallery-05-DSC_0403.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 935,
+          "bytes": 113568,
+          "alt": "Galleria Residences Cebu — gallery or amenity"
+        }
+      ]
+    },
+    {
+      "name": "Gateway Regency Studios",
+      "slug": "gateway-regency-studios",
+      "location": "Pioneer St., Mandaluyong City",
+      "city": "Mandaluyong City",
+      "type": "condo",
+      "status": "Mandaluyong City Tower 1 — Ready for Occupancy",
+      "is_rfo": true,
+      "is_preselling": false,
+      "facts": {
+        "unit_types": [
+          "Studio"
+        ],
+        "price": "PHP 4.0M - 5.1M",
+        "as_shown_on": "rlcresidences.com listing and/or project page, retrieved 14 November 2026"
+      },
+      "source_url": "https://www.rlcresidences.com/properties/gateway-regency-studios",
+      "hero": {
+        "file": "gateway-regency-studios/hero.webp",
+        "role": "hero",
+        "width": 524,
+        "height": 508,
+        "bytes": 52926,
+        "alt": "Gateway Regency Studios — hero"
+      },
+      "gallery": [
+        {
+          "file": "gateway-regency-studios/gallery-01-GRS-copy.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 482,
+          "bytes": 77010,
+          "alt": "Gateway Regency Studios — gallery or amenity"
+        },
+        {
+          "file": "gateway-regency-studios/gallery-02-GRS-LUX-LAB-1.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 71526,
+          "alt": "Gateway Regency Studios — gallery or amenity"
+        },
+        {
+          "file": "gateway-regency-studios/gallery-03-GRS.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 98952,
+          "alt": "Gateway Regency Studios — gallery or amenity"
+        },
+        {
+          "file": "gateway-regency-studios/gallery-04-GRS_10_Game-Room_FA-1-.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 76898,
+          "alt": "Gateway Regency Studios — gallery or amenity"
+        },
+        {
+          "file": "gateway-regency-studios/gallery-05-_MG_5791-1-.webp",
+          "role": "gallery_or_amenity",
+          "width": 562,
+          "height": 374,
+          "bytes": 34152,
+          "alt": "Gateway Regency Studios — gallery or amenity"
+        }
+      ],
+      "plans": [],
+      "images": [
+        {
+          "file": "gateway-regency-studios/hero.webp",
+          "role": "hero",
+          "width": 524,
+          "height": 508,
+          "bytes": 52926,
+          "alt": "Gateway Regency Studios — hero"
+        },
+        {
+          "file": "gateway-regency-studios/gallery-01-GRS-copy.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 482,
+          "bytes": 77010,
+          "alt": "Gateway Regency Studios — gallery or amenity"
+        },
+        {
+          "file": "gateway-regency-studios/gallery-02-GRS-LUX-LAB-1.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 71526,
+          "alt": "Gateway Regency Studios — gallery or amenity"
+        },
+        {
+          "file": "gateway-regency-studios/gallery-03-GRS.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 98952,
+          "alt": "Gateway Regency Studios — gallery or amenity"
+        },
+        {
+          "file": "gateway-regency-studios/gallery-04-GRS_10_Game-Room_FA-1-.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 76898,
+          "alt": "Gateway Regency Studios — gallery or amenity"
+        },
+        {
+          "file": "gateway-regency-studios/gallery-05-_MG_5791-1-.webp",
+          "role": "gallery_or_amenity",
+          "width": 562,
+          "height": 374,
+          "bytes": 34152,
+          "alt": "Gateway Regency Studios — gallery or amenity"
+        }
+      ]
+    },
+    {
+      "name": "Grand Tierra",
+      "slug": "grand-tierra",
+      "location": "Capas, Tarlac",
+      "city": "Capas, Tarlac",
+      "type": "house-and-lot",
+      "status": null,
+      "is_rfo": false,
+      "is_preselling": false,
+      "facts": {
+        "sizes": "66 sq. m",
+        "price": "PHP 4.2M - 5.5M",
+        "as_shown_on": "rlcresidences.com listing and/or project page, retrieved 14 November 2026"
+      },
+      "source_url": "https://www.rlcresidences.com/properties/grand-tierra",
+      "hero": {
+        "file": "grand-tierra/hero.webp",
+        "role": "hero",
+        "width": 524,
+        "height": 501,
+        "bytes": 30228,
+        "alt": "Grand Tierra — hero"
+      },
+      "gallery": [
+        {
+          "file": "grand-tierra/gallery-01-GT.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 482,
+          "bytes": 126482,
+          "alt": "Grand Tierra — gallery or amenity"
+        },
+        {
+          "file": "grand-tierra/gallery-02-2025_002_05-GT-SDP-MKTG-BDD-APPROVED-WEBSITE-SIZE.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 676,
+          "bytes": 79558,
+          "alt": "Grand Tierra — gallery or amenity"
+        },
+        {
+          "file": "grand-tierra/gallery-03-GT-Bedrroom2-min.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 1050,
+          "bytes": 69182,
+          "alt": "Grand Tierra — gallery or amenity"
+        },
+        {
+          "file": "grand-tierra/gallery-04-GT-Livingroom-min.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 976,
+          "bytes": 84684,
+          "alt": "Grand Tierra — gallery or amenity"
+        },
+        {
+          "file": "grand-tierra/gallery-05-GT-Master-Bedroom-min.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 840,
+          "bytes": 62632,
+          "alt": "Grand Tierra — gallery or amenity"
+        }
+      ],
+      "plans": [
+        {
+          "file": "grand-tierra/plan-01-GT-CHI.webp",
+          "role": "plan",
+          "width": 524,
+          "height": 501,
+          "bytes": 32736,
+          "alt": "Grand Tierra — plan"
+        }
+      ],
+      "images": [
+        {
+          "file": "grand-tierra/hero.webp",
+          "role": "hero",
+          "width": 524,
+          "height": 501,
+          "bytes": 30228,
+          "alt": "Grand Tierra — hero"
+        },
+        {
+          "file": "grand-tierra/gallery-01-GT.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 482,
+          "bytes": 126482,
+          "alt": "Grand Tierra — gallery or amenity"
+        },
+        {
+          "file": "grand-tierra/gallery-02-2025_002_05-GT-SDP-MKTG-BDD-APPROVED-WEBSITE-SIZE.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 676,
+          "bytes": 79558,
+          "alt": "Grand Tierra — gallery or amenity"
+        },
+        {
+          "file": "grand-tierra/gallery-03-GT-Bedrroom2-min.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 1050,
+          "bytes": 69182,
+          "alt": "Grand Tierra — gallery or amenity"
+        },
+        {
+          "file": "grand-tierra/gallery-04-GT-Livingroom-min.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 976,
+          "bytes": 84684,
+          "alt": "Grand Tierra — gallery or amenity"
+        },
+        {
+          "file": "grand-tierra/gallery-05-GT-Master-Bedroom-min.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 840,
+          "bytes": 62632,
+          "alt": "Grand Tierra — gallery or amenity"
+        },
+        {
+          "file": "grand-tierra/plan-01-GT-CHI.webp",
+          "role": "plan",
+          "width": 524,
+          "height": 501,
+          "bytes": 32736,
+          "alt": "Grand Tierra — plan"
+        }
+      ]
+    },
+    {
+      "name": "Le Pont Residences",
+      "slug": "le-pont-residences",
+      "location": "Bridgetowne, Pasig City",
+      "city": "Pasig City",
+      "type": "condo",
+      "status": "Pasig City Tower 2 — Pre-selling; Pasig City Tower 1 — Pre-selling",
+      "is_rfo": false,
+      "is_preselling": true,
+      "facts": {
+        "unit_types": [
+          "Executive 1BR",
+          "1BR",
+          "2BR"
+        ],
+        "price": "PHP 14.3M - 134.7M",
+        "as_shown_on": "rlcresidences.com listing and/or project page, retrieved 14 November 2026"
+      },
+      "source_url": "https://www.rlcresidences.com/properties/le-pont-residences",
+      "hero": {
+        "file": "le-pont-residences/hero.webp",
+        "role": "hero",
+        "width": 500,
+        "height": 281,
+        "bytes": 27900,
+        "alt": "Le Pont Residences — hero"
+      },
+      "gallery": [
+        {
+          "file": "le-pont-residences/gallery-01-lpr_heart-copy.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 482,
+          "bytes": 89688,
+          "alt": "Le Pont Residences — gallery or amenity"
+        },
+        {
+          "file": "le-pont-residences/gallery-02-LPR.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 677,
+          "bytes": 34156,
+          "alt": "Le Pont Residences — gallery or amenity"
+        },
+        {
+          "file": "le-pont-residences/gallery-03-LPR2_07_Pet-Park.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 868,
+          "bytes": 265082,
+          "alt": "Le Pont Residences — gallery or amenity"
+        },
+        {
+          "file": "le-pont-residences/gallery-04-LPR2_09_Golf-SImulator.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 201680,
+          "alt": "Le Pont Residences — gallery or amenity"
+        },
+        {
+          "file": "le-pont-residences/gallery-05-LPR2_06_Drop-off.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 215624,
+          "alt": "Le Pont Residences — gallery or amenity"
+        }
+      ],
+      "plans": [],
+      "images": [
+        {
+          "file": "le-pont-residences/hero.webp",
+          "role": "hero",
+          "width": 500,
+          "height": 281,
+          "bytes": 27900,
+          "alt": "Le Pont Residences — hero"
+        },
+        {
+          "file": "le-pont-residences/gallery-01-lpr_heart-copy.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 482,
+          "bytes": 89688,
+          "alt": "Le Pont Residences — gallery or amenity"
+        },
+        {
+          "file": "le-pont-residences/gallery-02-LPR.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 677,
+          "bytes": 34156,
+          "alt": "Le Pont Residences — gallery or amenity"
+        },
+        {
+          "file": "le-pont-residences/gallery-03-LPR2_07_Pet-Park.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 868,
+          "bytes": 265082,
+          "alt": "Le Pont Residences — gallery or amenity"
+        },
+        {
+          "file": "le-pont-residences/gallery-04-LPR2_09_Golf-SImulator.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 201680,
+          "alt": "Le Pont Residences — gallery or amenity"
+        },
+        {
+          "file": "le-pont-residences/gallery-05-LPR2_06_Drop-off.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 215624,
+          "alt": "Le Pont Residences — gallery or amenity"
+        }
+      ]
+    },
+    {
+      "name": "Mantawi Residences",
+      "slug": "mantawi-residences",
+      "location": "Ouano Ave., Mandaue City",
+      "city": "Mandaue City",
+      "type": "condo",
+      "status": "City of Mandaue Tower 1 — Pre-selling",
+      "is_rfo": false,
+      "is_preselling": true,
+      "facts": {
+        "unit_types": [
+          "1BR",
+          "2BR",
+          "3BR"
+        ],
+        "price": "PHP 12.5M - 58.0M",
+        "as_shown_on": "rlcresidences.com listing and/or project page, retrieved 14 November 2026"
+      },
+      "source_url": "https://www.rlcresidences.com/properties/mantawi-residences",
+      "hero": {
+        "file": "mantawi-residences/hero.webp",
+        "role": "hero",
+        "width": 524,
+        "height": 508,
+        "bytes": 60622,
+        "alt": "Mantawi Residences — hero"
+      },
+      "gallery": [
+        {
+          "file": "mantawi-residences/gallery-01-MANTAWI-copy.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 482,
+          "bytes": 89504,
+          "alt": "Mantawi Residences — gallery or amenity"
+        },
+        {
+          "file": "mantawi-residences/gallery-02-MANTAWI.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 677,
+          "bytes": 28498,
+          "alt": "Mantawi Residences — gallery or amenity"
+        },
+        {
+          "file": "mantawi-residences/gallery-03-Mantawi_26_PH_Liv-Din-Kit1_FA.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 125906,
+          "alt": "Mantawi Residences — gallery or amenity"
+        },
+        {
+          "file": "mantawi-residences/gallery-04-Mantawi_47_3BR_Liv-Din-Kit2_FA.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 665,
+          "bytes": 70598,
+          "alt": "Mantawi Residences — gallery or amenity"
+        },
+        {
+          "file": "mantawi-residences/gallery-05-Mantawi_35_PH_Master-T_B_FA.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 1050,
+          "bytes": 99236,
+          "alt": "Mantawi Residences — gallery or amenity"
+        }
+      ],
+      "plans": [],
+      "images": [
+        {
+          "file": "mantawi-residences/hero.webp",
+          "role": "hero",
+          "width": 524,
+          "height": 508,
+          "bytes": 60622,
+          "alt": "Mantawi Residences — hero"
+        },
+        {
+          "file": "mantawi-residences/gallery-01-MANTAWI-copy.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 482,
+          "bytes": 89504,
+          "alt": "Mantawi Residences — gallery or amenity"
+        },
+        {
+          "file": "mantawi-residences/gallery-02-MANTAWI.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 677,
+          "bytes": 28498,
+          "alt": "Mantawi Residences — gallery or amenity"
+        },
+        {
+          "file": "mantawi-residences/gallery-03-Mantawi_26_PH_Liv-Din-Kit1_FA.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 125906,
+          "alt": "Mantawi Residences — gallery or amenity"
+        },
+        {
+          "file": "mantawi-residences/gallery-04-Mantawi_47_3BR_Liv-Din-Kit2_FA.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 665,
+          "bytes": 70598,
+          "alt": "Mantawi Residences — gallery or amenity"
+        },
+        {
+          "file": "mantawi-residences/gallery-05-Mantawi_35_PH_Master-T_B_FA.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 1050,
+          "bytes": 99236,
+          "alt": "Mantawi Residences — gallery or amenity"
+        }
+      ]
+    },
+    {
+      "name": "MIRA",
+      "slug": "mira",
+      "location": "Brgy. San Roque, Quezon City",
+      "city": "Quezon City",
+      "type": "condo",
+      "status": null,
+      "is_rfo": false,
+      "is_preselling": false,
+      "facts": {
+        "unit_types": [
+          "2BR",
+          "Studio",
+          "1BR w/ Balcony"
+        ],
+        "price": "PHP 6.3M - 17.6M",
+        "as_shown_on": "rlcresidences.com listing and/or project page, retrieved 14 November 2026"
+      },
+      "source_url": "https://www.rlcresidences.com/properties/mira",
+      "hero": {
+        "file": "mira/hero.webp",
+        "role": "hero",
+        "width": 1440,
+        "height": 496,
+        "bytes": 158114,
+        "alt": "MIRA — hero"
+      },
+      "gallery": [
+        {
+          "file": "mira/gallery-01-mira.webp",
+          "role": "gallery_or_amenity",
+          "width": 524,
+          "height": 508,
+          "bytes": 50354,
+          "alt": "MIRA — gallery or amenity"
+        },
+        {
+          "file": "mira/gallery-02-mira-gallery-photo-5.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 666,
+          "bytes": 108584,
+          "alt": "MIRA — gallery or amenity"
+        },
+        {
+          "file": "mira/gallery-03-mira-gallery-photo-6.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 128520,
+          "alt": "MIRA — gallery or amenity"
+        },
+        {
+          "file": "mira/gallery-04-mira-gallery-photo-4.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 119952,
+          "alt": "MIRA — gallery or amenity"
+        },
+        {
+          "file": "mira/gallery-05-mira-gallery-photo-1.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 144288,
+          "alt": "MIRA — gallery or amenity"
+        }
+      ],
+      "plans": [
+        {
+          "file": "mira/plan-01-mira-site-development.webp",
+          "role": "plan",
+          "width": 1441,
+          "height": 697,
+          "bytes": 54486,
+          "alt": "MIRA — plan"
+        }
+      ],
+      "images": [
+        {
+          "file": "mira/hero.webp",
+          "role": "hero",
+          "width": 1440,
+          "height": 496,
+          "bytes": 158114,
+          "alt": "MIRA — hero"
+        },
+        {
+          "file": "mira/gallery-01-mira.webp",
+          "role": "gallery_or_amenity",
+          "width": 524,
+          "height": 508,
+          "bytes": 50354,
+          "alt": "MIRA — gallery or amenity"
+        },
+        {
+          "file": "mira/gallery-02-mira-gallery-photo-5.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 666,
+          "bytes": 108584,
+          "alt": "MIRA — gallery or amenity"
+        },
+        {
+          "file": "mira/gallery-03-mira-gallery-photo-6.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 128520,
+          "alt": "MIRA — gallery or amenity"
+        },
+        {
+          "file": "mira/gallery-04-mira-gallery-photo-4.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 119952,
+          "alt": "MIRA — gallery or amenity"
+        },
+        {
+          "file": "mira/gallery-05-mira-gallery-photo-1.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 144288,
+          "alt": "MIRA — gallery or amenity"
+        },
+        {
+          "file": "mira/plan-01-mira-site-development.webp",
+          "role": "plan",
+          "width": 1441,
+          "height": 697,
+          "bytes": 54486,
+          "alt": "MIRA — plan"
+        }
+      ]
+    },
+    {
+      "name": "Sierra Valley Gardens",
+      "slug": "sierra-valley-gardens",
+      "location": "Ortigas Ave. Ext. / Suburban Dr., Cainta",
+      "city": "Cainta",
+      "type": "condo",
+      "status": null,
+      "is_rfo": false,
+      "is_preselling": false,
+      "facts": {
+        "unit_types": [
+          "1BR",
+          "Studio",
+          "1BR w/ Balcony"
+        ],
+        "price": "PHP 4.3M - 14.1M",
+        "as_shown_on": "rlcresidences.com listing and/or project page, retrieved 14 November 2026"
+      },
+      "source_url": "https://www.rlcresidences.com/properties/sierra-valley-gardens",
+      "hero": {
+        "file": "sierra-valley-gardens/hero.webp",
+        "role": "hero",
+        "width": 500,
+        "height": 281,
+        "bytes": 27536,
+        "alt": "Sierra Valley Gardens — hero"
+      },
+      "gallery": [
+        {
+          "file": "sierra-valley-gardens/gallery-01-svg-heart-copy.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 482,
+          "bytes": 85950,
+          "alt": "Sierra Valley Gardens — gallery or amenity"
+        },
+        {
+          "file": "sierra-valley-gardens/gallery-02-SVG.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 677,
+          "bytes": 57624,
+          "alt": "Sierra Valley Gardens — gallery or amenity"
+        },
+        {
+          "file": "sierra-valley-gardens/gallery-03-svg4.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 1037,
+          "bytes": 139418,
+          "alt": "Sierra Valley Gardens — gallery or amenity"
+        },
+        {
+          "file": "sierra-valley-gardens/gallery-04-svg6.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 820,
+          "bytes": 123510,
+          "alt": "Sierra Valley Gardens — gallery or amenity"
+        },
+        {
+          "file": "sierra-valley-gardens/gallery-05-svg2.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 1037,
+          "bytes": 238574,
+          "alt": "Sierra Valley Gardens — gallery or amenity"
+        }
+      ],
+      "plans": [],
+      "images": [
+        {
+          "file": "sierra-valley-gardens/hero.webp",
+          "role": "hero",
+          "width": 500,
+          "height": 281,
+          "bytes": 27536,
+          "alt": "Sierra Valley Gardens — hero"
+        },
+        {
+          "file": "sierra-valley-gardens/gallery-01-svg-heart-copy.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 482,
+          "bytes": 85950,
+          "alt": "Sierra Valley Gardens — gallery or amenity"
+        },
+        {
+          "file": "sierra-valley-gardens/gallery-02-SVG.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 677,
+          "bytes": 57624,
+          "alt": "Sierra Valley Gardens — gallery or amenity"
+        },
+        {
+          "file": "sierra-valley-gardens/gallery-03-svg4.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 1037,
+          "bytes": 139418,
+          "alt": "Sierra Valley Gardens — gallery or amenity"
+        },
+        {
+          "file": "sierra-valley-gardens/gallery-04-svg6.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 820,
+          "bytes": 123510,
+          "alt": "Sierra Valley Gardens — gallery or amenity"
+        },
+        {
+          "file": "sierra-valley-gardens/gallery-05-svg2.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 1037,
+          "bytes": 238574,
+          "alt": "Sierra Valley Gardens — gallery or amenity"
+        }
+      ]
+    },
+    {
+      "name": "Springdale Baliwag",
+      "slug": "springdale-baliwag",
+      "location": "Sta. Barbara, Baliwag City",
+      "city": "Baliwag City",
+      "type": "house-and-lot",
+      "status": null,
+      "is_rfo": false,
+      "is_preselling": false,
+      "facts": {
+        "sizes": "42 sqm",
+        "price": "PHP 3.6M - 5.6M",
+        "as_shown_on": "rlcresidences.com listing and/or project page, retrieved 14 November 2026"
+      },
+      "source_url": "https://www.rlcresidences.com/properties/springdale-baliwag",
+      "hero": {
+        "file": "springdale-baliwag/hero.webp",
+        "role": "hero",
+        "width": 1600,
+        "height": 1318,
+        "bytes": 181148,
+        "alt": "Springdale Baliwag — hero"
+      },
+      "gallery": [
+        {
+          "file": "springdale-baliwag/gallery-01-SDW-copy.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 482,
+          "bytes": 103350,
+          "alt": "Springdale Baliwag — gallery or amenity"
+        },
+        {
+          "file": "springdale-baliwag/gallery-02-2025_03_27-SDW-SDP-MKTG-BDD-APPROVED-WEBSITE-SIZE.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 676,
+          "bytes": 64392,
+          "alt": "Springdale Baliwag — gallery or amenity"
+        },
+        {
+          "file": "springdale-baliwag/gallery-03-SDW-ATLANTA-BEDROOM-1.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 56232,
+          "alt": "Springdale Baliwag — gallery or amenity"
+        },
+        {
+          "file": "springdale-baliwag/gallery-04-SDW-ATLANTA-BEDROOM-2.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 59600,
+          "alt": "Springdale Baliwag — gallery or amenity"
+        },
+        {
+          "file": "springdale-baliwag/gallery-05-SDW-ATLANTA-KITCHEN.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 61160,
+          "alt": "Springdale Baliwag — gallery or amenity"
+        }
+      ],
+      "plans": [
+        {
+          "file": "springdale-baliwag/plan-01-SDW-ATL-TH-EXTERIOR-min.webp",
+          "role": "plan",
+          "width": 1800,
+          "height": 1483,
+          "bytes": 252240,
+          "alt": "Springdale Baliwag — plan"
+        }
+      ],
+      "images": [
+        {
+          "file": "springdale-baliwag/hero.webp",
+          "role": "hero",
+          "width": 1600,
+          "height": 1318,
+          "bytes": 181148,
+          "alt": "Springdale Baliwag — hero"
+        },
+        {
+          "file": "springdale-baliwag/gallery-01-SDW-copy.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 482,
+          "bytes": 103350,
+          "alt": "Springdale Baliwag — gallery or amenity"
+        },
+        {
+          "file": "springdale-baliwag/gallery-02-2025_03_27-SDW-SDP-MKTG-BDD-APPROVED-WEBSITE-SIZE.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 676,
+          "bytes": 64392,
+          "alt": "Springdale Baliwag — gallery or amenity"
+        },
+        {
+          "file": "springdale-baliwag/gallery-03-SDW-ATLANTA-BEDROOM-1.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 56232,
+          "alt": "Springdale Baliwag — gallery or amenity"
+        },
+        {
+          "file": "springdale-baliwag/gallery-04-SDW-ATLANTA-BEDROOM-2.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 59600,
+          "alt": "Springdale Baliwag — gallery or amenity"
+        },
+        {
+          "file": "springdale-baliwag/gallery-05-SDW-ATLANTA-KITCHEN.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 61160,
+          "alt": "Springdale Baliwag — gallery or amenity"
+        },
+        {
+          "file": "springdale-baliwag/plan-01-SDW-ATL-TH-EXTERIOR-min.webp",
+          "role": "plan",
+          "width": 1800,
+          "height": 1483,
+          "bytes": 252240,
+          "alt": "Springdale Baliwag — plan"
+        }
+      ]
+    },
+    {
+      "name": "SYNC",
+      "slug": "sync",
+      "location": "Brgy. Bagong Ilog, Pasig City",
+      "city": "Pasig City",
+      "type": "condo",
+      "status": null,
+      "is_rfo": false,
+      "is_preselling": false,
+      "facts": {
+        "unit_types": [
+          "Executive 1BR",
+          "1BR",
+          "2BR"
+        ],
+        "price": "PHP 5.3M - 27.3M",
+        "as_shown_on": "rlcresidences.com listing and/or project page, retrieved 14 November 2026"
+      },
+      "source_url": "https://www.rlcresidences.com/properties/sync",
+      "hero": {
+        "file": "sync/hero.webp",
+        "role": "hero",
+        "width": 1600,
+        "height": 899,
+        "bytes": 259142,
+        "alt": "SYNC — hero"
+      },
+      "gallery": [
+        {
+          "file": "sync/gallery-01-sync-heart-copy.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 482,
+          "bytes": 127686,
+          "alt": "SYNC — gallery or amenity"
+        },
+        {
+          "file": "sync/gallery-02-SYNC-SDP.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 676,
+          "bytes": 35958,
+          "alt": "SYNC — gallery or amenity"
+        },
+        {
+          "file": "sync/gallery-03-SyncPh2_38_2BR-w-Bal-B2-V1_221005.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 82294,
+          "alt": "SYNC — gallery or amenity"
+        },
+        {
+          "file": "sync/gallery-04-SyncPh2_07_Retail-V2_221005.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 148012,
+          "alt": "SYNC — gallery or amenity"
+        },
+        {
+          "file": "sync/gallery-05-SyncPh2_35_2BR-w-Bal-A-V3_221005.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 130320,
+          "alt": "SYNC — gallery or amenity"
+        }
+      ],
+      "plans": [],
+      "images": [
+        {
+          "file": "sync/hero.webp",
+          "role": "hero",
+          "width": 1600,
+          "height": 899,
+          "bytes": 259142,
+          "alt": "SYNC — hero"
+        },
+        {
+          "file": "sync/gallery-01-sync-heart-copy.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 482,
+          "bytes": 127686,
+          "alt": "SYNC — gallery or amenity"
+        },
+        {
+          "file": "sync/gallery-02-SYNC-SDP.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 676,
+          "bytes": 35958,
+          "alt": "SYNC — gallery or amenity"
+        },
+        {
+          "file": "sync/gallery-03-SyncPh2_38_2BR-w-Bal-B2-V1_221005.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 82294,
+          "alt": "SYNC — gallery or amenity"
+        },
+        {
+          "file": "sync/gallery-04-SyncPh2_07_Retail-V2_221005.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 148012,
+          "alt": "SYNC — gallery or amenity"
+        },
+        {
+          "file": "sync/gallery-05-SyncPh2_35_2BR-w-Bal-A-V3_221005.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 130320,
+          "alt": "SYNC — gallery or amenity"
+        }
+      ]
+    },
+    {
+      "name": "The Residences at The Westin Manila",
+      "slug": "the-residences-at-the-westin-manila",
+      "location": "Ortigas Center, Pasig City",
+      "city": "Pasig City",
+      "type": "condo",
+      "status": "Mandaluyong City Tower 1 — Ready for Occupancy",
+      "is_rfo": true,
+      "is_preselling": false,
+      "facts": {
+        "unit_types": [
+          "1BR",
+          "2BR",
+          "3BR"
+        ],
+        "price": "PHP 16.6M - 94.0M",
+        "as_shown_on": "rlcresidences.com listing and/or project page, retrieved 14 November 2026"
+      },
+      "source_url": "https://www.rlcresidences.com/properties/the-residences-at-the-westin-manila",
+      "hero": {
+        "file": "the-residences-at-the-westin-manila/hero.webp",
+        "role": "hero",
+        "width": 524,
+        "height": 508,
+        "bytes": 37958,
+        "alt": "The Residences at The Westin Manila — hero"
+      },
+      "gallery": [
+        {
+          "file": "the-residences-at-the-westin-manila/gallery-01-westin.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 482,
+          "bytes": 66222,
+          "alt": "The Residences at The Westin Manila — gallery or amenity"
+        },
+        {
+          "file": "the-residences-at-the-westin-manila/gallery-02-Sonata-Premier_Sound-Stage.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 100684,
+          "alt": "The Residences at The Westin Manila — gallery or amenity"
+        },
+        {
+          "file": "the-residences-at-the-westin-manila/gallery-03-Sonata-Premier_Residents-Lounge.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 116138,
+          "alt": "The Residences at The Westin Manila — gallery or amenity"
+        },
+        {
+          "file": "the-residences-at-the-westin-manila/gallery-04-Sonata-Premier_Boardroom.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 91450,
+          "alt": "The Residences at The Westin Manila — gallery or amenity"
+        },
+        {
+          "file": "the-residences-at-the-westin-manila/gallery-05-Hotel-Lobby.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 1083,
+          "bytes": 295456,
+          "alt": "The Residences at The Westin Manila — gallery or amenity"
+        }
+      ],
+      "plans": [],
+      "images": [
+        {
+          "file": "the-residences-at-the-westin-manila/hero.webp",
+          "role": "hero",
+          "width": 524,
+          "height": 508,
+          "bytes": 37958,
+          "alt": "The Residences at The Westin Manila — hero"
+        },
+        {
+          "file": "the-residences-at-the-westin-manila/gallery-01-westin.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 482,
+          "bytes": 66222,
+          "alt": "The Residences at The Westin Manila — gallery or amenity"
+        },
+        {
+          "file": "the-residences-at-the-westin-manila/gallery-02-Sonata-Premier_Sound-Stage.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 100684,
+          "alt": "The Residences at The Westin Manila — gallery or amenity"
+        },
+        {
+          "file": "the-residences-at-the-westin-manila/gallery-03-Sonata-Premier_Residents-Lounge.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 116138,
+          "alt": "The Residences at The Westin Manila — gallery or amenity"
+        },
+        {
+          "file": "the-residences-at-the-westin-manila/gallery-04-Sonata-Premier_Boardroom.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 91450,
+          "alt": "The Residences at The Westin Manila — gallery or amenity"
+        },
+        {
+          "file": "the-residences-at-the-westin-manila/gallery-05-Hotel-Lobby.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 1083,
+          "bytes": 295456,
+          "alt": "The Residences at The Westin Manila — gallery or amenity"
+        }
+      ]
+    },
+    {
+      "name": "The Sapphire Bloc",
+      "slug": "the-sapphire-bloc",
+      "location": "Ortigas Center, Pasig City",
+      "city": "Pasig City",
+      "type": "condo",
+      "status": null,
+      "is_rfo": false,
+      "is_preselling": false,
+      "facts": {
+        "unit_types": [
+          "Executive 1BR",
+          "1BR",
+          "Studio"
+        ],
+        "price": "PHP 7.4M - 14.2M",
+        "as_shown_on": "rlcresidences.com listing and/or project page, retrieved 14 November 2026"
+      },
+      "source_url": "https://www.rlcresidences.com/properties/the-sapphire-bloc",
+      "hero": {
+        "file": "the-sapphire-bloc/hero.webp",
+        "role": "hero",
+        "width": 524,
+        "height": 508,
+        "bytes": 62440,
+        "alt": "The Sapphire Bloc — hero"
+      },
+      "gallery": [
+        {
+          "file": "the-sapphire-bloc/gallery-01-tsb.webp",
+          "role": "gallery_or_amenity",
+          "width": 1200,
+          "height": 414,
+          "bytes": 69232,
+          "alt": "The Sapphire Bloc — gallery or amenity"
+        },
+        {
+          "file": "the-sapphire-bloc/gallery-02-TSB-XZONADO-1.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 1008,
+          "bytes": 147402,
+          "alt": "The Sapphire Bloc — gallery or amenity"
+        },
+        {
+          "file": "the-sapphire-bloc/gallery-03-TSB-XZONADO-3.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 1050,
+          "bytes": 269694,
+          "alt": "The Sapphire Bloc — gallery or amenity"
+        },
+        {
+          "file": "the-sapphire-bloc/gallery-04-TSB-ELEVATE-1.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 1008,
+          "bytes": 110458,
+          "alt": "The Sapphire Bloc — gallery or amenity"
+        },
+        {
+          "file": "the-sapphire-bloc/gallery-05-Sapphire-T2-Gym-Option-2-02.webp",
+          "role": "gallery_or_amenity",
+          "width": 624,
+          "height": 416,
+          "bytes": 48180,
+          "alt": "The Sapphire Bloc — gallery or amenity"
+        }
+      ],
+      "plans": [],
+      "images": [
+        {
+          "file": "the-sapphire-bloc/hero.webp",
+          "role": "hero",
+          "width": 524,
+          "height": 508,
+          "bytes": 62440,
+          "alt": "The Sapphire Bloc — hero"
+        },
+        {
+          "file": "the-sapphire-bloc/gallery-01-tsb.webp",
+          "role": "gallery_or_amenity",
+          "width": 1200,
+          "height": 414,
+          "bytes": 69232,
+          "alt": "The Sapphire Bloc — gallery or amenity"
+        },
+        {
+          "file": "the-sapphire-bloc/gallery-02-TSB-XZONADO-1.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 1008,
+          "bytes": 147402,
+          "alt": "The Sapphire Bloc — gallery or amenity"
+        },
+        {
+          "file": "the-sapphire-bloc/gallery-03-TSB-XZONADO-3.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 1050,
+          "bytes": 269694,
+          "alt": "The Sapphire Bloc — gallery or amenity"
+        },
+        {
+          "file": "the-sapphire-bloc/gallery-04-TSB-ELEVATE-1.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 1008,
+          "bytes": 110458,
+          "alt": "The Sapphire Bloc — gallery or amenity"
+        },
+        {
+          "file": "the-sapphire-bloc/gallery-05-Sapphire-T2-Gym-Option-2-02.webp",
+          "role": "gallery_or_amenity",
+          "width": 624,
+          "height": 416,
+          "bytes": 48180,
+          "alt": "The Sapphire Bloc — gallery or amenity"
+        }
+      ]
+    },
+    {
+      "name": "The Trion Towers",
+      "slug": "the-trion-towers",
+      "location": "BGC, Taguig City",
+      "city": "Taguig City",
+      "type": "condo",
+      "status": "Taguig City Tower 1 — Ready for Occupancy",
+      "is_rfo": true,
+      "is_preselling": false,
+      "facts": {
+        "unit_types": [
+          "1BR",
+          "2BR",
+          "3BR"
+        ],
+        "price": "PHP 13.2M - 61.8M",
+        "as_shown_on": "rlcresidences.com listing and/or project page, retrieved 14 November 2026"
+      },
+      "source_url": "https://www.rlcresidences.com/properties/the-trion-towers",
+      "hero": {
+        "file": "the-trion-towers/hero.webp",
+        "role": "hero",
+        "width": 524,
+        "height": 508,
+        "bytes": 54076,
+        "alt": "The Trion Towers — hero"
+      },
+      "gallery": [
+        {
+          "file": "the-trion-towers/gallery-01-trion1.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 482,
+          "bytes": 69258,
+          "alt": "The Trion Towers — gallery or amenity"
+        },
+        {
+          "file": "the-trion-towers/gallery-02-Layer-0.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 933,
+          "bytes": 152126,
+          "alt": "The Trion Towers — gallery or amenity"
+        },
+        {
+          "file": "the-trion-towers/gallery-03-MODERN-FOX-TTT-2.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 1008,
+          "bytes": 175858,
+          "alt": "The Trion Towers — gallery or amenity"
+        },
+        {
+          "file": "the-trion-towers/gallery-04-MODERN-FOX-TTT.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 1008,
+          "bytes": 210186,
+          "alt": "The Trion Towers — gallery or amenity"
+        },
+        {
+          "file": "the-trion-towers/gallery-05-TTT-RALPH-S-WINE-1.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 1008,
+          "bytes": 188452,
+          "alt": "The Trion Towers — gallery or amenity"
+        }
+      ],
+      "plans": [],
+      "images": [
+        {
+          "file": "the-trion-towers/hero.webp",
+          "role": "hero",
+          "width": 524,
+          "height": 508,
+          "bytes": 54076,
+          "alt": "The Trion Towers — hero"
+        },
+        {
+          "file": "the-trion-towers/gallery-01-trion1.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 482,
+          "bytes": 69258,
+          "alt": "The Trion Towers — gallery or amenity"
+        },
+        {
+          "file": "the-trion-towers/gallery-02-Layer-0.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 933,
+          "bytes": 152126,
+          "alt": "The Trion Towers — gallery or amenity"
+        },
+        {
+          "file": "the-trion-towers/gallery-03-MODERN-FOX-TTT-2.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 1008,
+          "bytes": 175858,
+          "alt": "The Trion Towers — gallery or amenity"
+        },
+        {
+          "file": "the-trion-towers/gallery-04-MODERN-FOX-TTT.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 1008,
+          "bytes": 210186,
+          "alt": "The Trion Towers — gallery or amenity"
+        },
+        {
+          "file": "the-trion-towers/gallery-05-TTT-RALPH-S-WINE-1.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 1008,
+          "bytes": 188452,
+          "alt": "The Trion Towers — gallery or amenity"
+        }
+      ]
+    },
+    {
+      "name": "Woodsville Crest",
+      "slug": "woodsville-crest",
+      "location": "Merville, Parañaque City",
+      "city": "Parañaque City",
+      "type": "condo",
+      "status": "Parañaque City Phase 1 — Pre-selling",
+      "is_rfo": false,
+      "is_preselling": true,
+      "facts": {
+        "unit_types": [
+          "1BR",
+          "2BR",
+          "Studio"
+        ],
+        "price": "PHP 5.3M - 18.6M",
+        "as_shown_on": "rlcresidences.com listing and/or project page, retrieved 14 November 2026"
+      },
+      "source_url": "https://www.rlcresidences.com/properties/woodsville-crest",
+      "hero": {
+        "file": "woodsville-crest/hero.webp",
+        "role": "hero",
+        "width": 524,
+        "height": 508,
+        "bytes": 56632,
+        "alt": "Woodsville Crest — hero"
+      },
+      "gallery": [
+        {
+          "file": "woodsville-crest/gallery-01-wvc-heart-copy.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 482,
+          "bytes": 109168,
+          "alt": "Woodsville Crest — gallery or amenity"
+        },
+        {
+          "file": "woodsville-crest/gallery-02-WVC.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 677,
+          "bytes": 33374,
+          "alt": "Woodsville Crest — gallery or amenity"
+        },
+        {
+          "file": "woodsville-crest/gallery-03-wvc2.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 293336,
+          "alt": "Woodsville Crest — gallery or amenity"
+        },
+        {
+          "file": "woodsville-crest/gallery-04-wvc6.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 185946,
+          "alt": "Woodsville Crest — gallery or amenity"
+        },
+        {
+          "file": "woodsville-crest/gallery-05-wvc3.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 295432,
+          "alt": "Woodsville Crest — gallery or amenity"
+        }
+      ],
+      "plans": [
+        {
+          "file": "woodsville-crest/plan-01-WVC-Ph2_Plan_1BR-w-Balcony_FA_230801.webp",
+          "role": "plan",
+          "width": 1800,
+          "height": 2179,
+          "bytes": 121468,
+          "alt": "Woodsville Crest — plan"
+        }
+      ],
+      "images": [
+        {
+          "file": "woodsville-crest/hero.webp",
+          "role": "hero",
+          "width": 524,
+          "height": 508,
+          "bytes": 56632,
+          "alt": "Woodsville Crest — hero"
+        },
+        {
+          "file": "woodsville-crest/gallery-01-wvc-heart-copy.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 482,
+          "bytes": 109168,
+          "alt": "Woodsville Crest — gallery or amenity"
+        },
+        {
+          "file": "woodsville-crest/gallery-02-WVC.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 677,
+          "bytes": 33374,
+          "alt": "Woodsville Crest — gallery or amenity"
+        },
+        {
+          "file": "woodsville-crest/gallery-03-wvc2.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 293336,
+          "alt": "Woodsville Crest — gallery or amenity"
+        },
+        {
+          "file": "woodsville-crest/gallery-04-wvc6.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 185946,
+          "alt": "Woodsville Crest — gallery or amenity"
+        },
+        {
+          "file": "woodsville-crest/gallery-05-wvc3.webp",
+          "role": "gallery_or_amenity",
+          "width": 1400,
+          "height": 787,
+          "bytes": 295432,
+          "alt": "Woodsville Crest — gallery or amenity"
+        },
+        {
+          "file": "woodsville-crest/plan-01-WVC-Ph2_Plan_1BR-w-Balcony_FA_230801.webp",
+          "role": "plan",
+          "width": 1800,
+          "height": 2179,
+          "bytes": 121468,
+          "alt": "Woodsville Crest — plan"
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "source": "Official rlcresidences.com photos, optimized for the web. Originals remain in /workspace/mamcris-site/assets/projects/."
+}

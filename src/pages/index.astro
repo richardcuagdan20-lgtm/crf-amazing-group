@@ -1,0 +1,158 @@
+---
+import Base from "../layouts/Base.astro";
+import { featured, handoverEntries, heroSlides, imgSrc, inquireHref, typeLabel } from "../data/catalog.js";
+
+const releases = handoverEntries();
+const picks = featured();
+---
+<Base
+  description="CRF Amazing Group, led by Crystal Flores. Homes with RLC Residences, handover releases, and a direct line on Viber, WhatsApp, or a call."
+>
+  <section class="hero" aria-label="Crystal Flores, CRF Amazing Group">
+    <div class="hero-slides" aria-hidden="true">
+      {heroSlides.map((slide, i) => (
+        <img
+          src={slide.src}
+          alt=""
+          width={slide.width}
+          height={slide.height}
+          fetchpriority={i === 0 ? "high" : "low"}
+          loading={i === 0 ? "eager" : "lazy"}
+        />
+      ))}
+    </div>
+    <div class="hero-veil" aria-hidden="true"></div>
+    <div class="wrap">
+      <div class="hero-copy">
+        <p class="kicker">Commit, Raise and Forward</p>
+        <h1>Crystal Flores</h1>
+        <p>
+          International Marketing Associate Director, Robinsons Land Corporation International Marketing.
+          I help you find a home you can actually live in — in the Philippines, or from abroad.
+        </p>
+        <a class="phone" href="tel:+639776821438">0977 682 1438</a>
+        <div class="hero-actions">
+          <a class="btn" href="tel:+639776821438">Call</a>
+          <a class="btn btn-line" href="viber://chat?number=%2B639776821438">Viber</a>
+          <a class="btn btn-line" href="https://wa.me/639776821438">WhatsApp</a>
+          <a class="btn btn-line" href="mailto:crystalflores.rpmmc@gmail.com">Email</a>
+          <a class="btn btn-line" href="/projects">Browse projects</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="handover-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="handover-title">Handover Releases</h2>
+      </div>
+      {releases.length === 0 ? (
+        <div class="handover-placeholder">
+          <p>Latest handover releases coming soon. Message Crystal for ready-for-occupancy units.</p>
+          <div class="hero-actions">
+            <a class="btn btn-navy" href="viber://chat?number=%2B639776821438">Viber</a>
+            <a class="btn btn-navy" href="https://wa.me/639776821438?text=Hi%20Crystal%2C%20I%27m%20asking%20about%20ready-for-occupancy%20units.">WhatsApp</a>
+          </div>
+        </div>
+      ) : (
+        <div class="release-grid">
+          {releases.map((r) => (
+            <article class="release-card">
+              {r.photo && (
+                r.slug ? (
+                  <a href={`/projects/${r.slug}`}>
+                    <img src={r.photo} alt="" width={r.photoWidth} height={r.photoHeight} />
+                  </a>
+                ) : (
+                  <img src={r.photo} alt="" width={r.photoWidth} height={r.photoHeight} />
+                )
+              )}
+              <div>
+                {r.slug ? (
+                  <a class="release-name" href={`/projects/${r.slug}`}>{r.project}</a>
+                ) : (
+                  <p class="release-name">{r.project}</p>
+                )}
+                <p class="release-meta">
+                  {[r.location, r.tower_or_unit, r.release_date].filter(Boolean).join(", ")}
+                  {r.note ? <><br />{r.note}</> : null}
+                </p>
+                <div class="release-actions">
+                  <a class="btn" href={inquireHref(r.project || "a handover release", "whatsapp")}>WhatsApp</a>
+                  {r.slug && <a class="btn btn-line" href={`/projects/${r.slug}`}>View</a>}
+                </div>
+              </div>
+            </article>
+          ))}
+        </div>
+      )}
+    </div>
+  </section>
+
+  <section aria-labelledby="featured-title" style="border-top:1px solid var(--line);">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="featured-title">Projects in the cities I cover</h2>
+        <a href="/projects">View all properties</a>
+      </div>
+      <div class="dir">
+        {picks.map((p) => (
+          <a class="dir-item" href={`/projects/${p.slug}`}>
+            {p.hero && (
+              <img src={imgSrc(p.hero.file)} alt="" width={p.hero.width} height={p.hero.height} />
+            )}
+            <div>
+              <p class="dir-name">{p.name}</p>
+              <p class="dir-meta">{p.location} · {typeLabel(p.type)}</p>
+            </div>
+            <span class="btn btn-line">View</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="about-teaser" style="border-top:1px solid var(--line);">
+    <div class="wrap">
+      <h2 id="about-teaser">About Crystal</h2>
+      <p>
+        Fourteen years in real estate, ten as a global business leader. A Philippine Registered Nurse
+        and an Accredited Real Estate Salesperson. Founder of Global CRF Amazing — Global Real Estate
+        Ambassadors and Global Marketing Partners.
+      </p>
+      <blockquote>
+        “Driven by passion and built on innovation. We create with purpose to help you shape a better future today.”
+      </blockquote>
+      <a class="btn btn-navy" href="/about">About Us</a>
+    </div>
+  </section>
+
+  <section aria-labelledby="teams-title" style="border-top:1px solid var(--line);">
+    <div class="wrap">
+      <h2 id="teams-title">Global CRF teams</h2>
+      <p class="lede">Ambassadors and marketing partners, including people already living abroad.</p>
+      <ul class="teams">
+        <li>Canada</li>
+        <li>United Arab Emirates</li>
+        <li>Spain</li>
+        <li>United States</li>
+      </ul>
+      <p style="margin-top:1.2rem;"><a class="btn btn-line" href="/careers">Join as an ambassador or partner</a></p>
+    </div>
+  </section>
+
+  <section aria-labelledby="cta-title" style="background:var(--navy);color:var(--ivory);">
+    <div class="wrap">
+      <h2 id="cta-title" style="color:var(--ivory);">Talk to Crystal</h2>
+      <p style="color:var(--gold-light);">Call, Viber, WhatsApp, or email. I will answer as myself.</p>
+      <a class="phone" style="color:var(--gold-light);" href="tel:+639776821438">0977 682 1438</a>
+      <div class="hero-actions">
+        <a class="btn" href="tel:+639776821438">Call</a>
+        <a class="btn btn-ghost" href="viber://chat?number=%2B639776821438">Viber</a>
+        <a class="btn btn-ghost" href="https://wa.me/639776821438">WhatsApp</a>
+        <a class="btn btn-ghost" href="/contact">Contact page</a>
+      </div>
+    </div>
+  </section>
+</Base>

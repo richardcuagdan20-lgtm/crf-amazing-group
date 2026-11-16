@@ -1,0 +1,37 @@
+---
+import Base from "../layouts/Base.astro";
+
+const subject = encodeURIComponent("Application: Global CRF Amazing ambassador or marketing partner");
+const body = encodeURIComponent("Hi Crystal, I would like to join Global CRF Amazing as an ambassador or marketing partner. I am based in:");
+const mailto = `mailto:crystalflores.rpmmc@gmail.com?subject=${subject}&body=${body}`;
+const wa = `https://wa.me/639776821438?text=${encodeURIComponent("Hi Crystal, I would like to join Global CRF Amazing as an ambassador or marketing partner. I am based in:")}`;
+---
+<Base title="Careers" description="Join Global CRF Amazing as a real estate ambassador or marketing partner, including from Canada, the UAE, Spain, the USA, or the Philippines.">
+  <section class="page-intro">
+    <div class="wrap">
+      <h1>Join Global CRF Amazing</h1>
+      <p>
+        We welcome Global Real Estate Ambassadors and Global Marketing Partners — including people
+        already living in Canada, the UAE, Spain, the United States, or other countries, as well as
+        in the Philippines.
+      </p>
+      <p>
+        If you want to help OFWs and international buyers find a home, and you want to work with
+        Crystal and the CRF Amazing Group, send a short note. Say where you are based and how you
+        would like to contribute.
+      </p>
+      <p>
+        You’re applying to join Crystal’s Global CRF Amazing team, not the human-resources office of Robinsons Land.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-navy" href={mailto}>Apply by email</a>
+        <a class="btn btn-line" href={wa}>Apply on WhatsApp</a>
+        <a class="btn btn-line" href="viber://chat?number=%2B639776821438">Apply on Viber</a>
+      </div>
+      <p class="kicker" style="margin-top:1.5rem;">
+        Email: <a href="mailto:crystalflores.rpmmc@gmail.com">crystalflores.rpmmc@gmail.com</a> ·
+        Mobile: <a href="tel:+639776821438">0977 682 1438</a>
+      </p>
+    </div>
+  </section>
+</Base>
